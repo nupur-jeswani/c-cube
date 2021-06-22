@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import './Intro.css';
 import Back from './back-arrow.png';
 import { useState } from "react";
+import CardBg from './logic-card-bg.png';
 
 const Intro = () => {
 
@@ -40,8 +41,8 @@ const Intro = () => {
         <div className="div-body">
             <div className="logic-container">
                 <div className="container">
-                    <Link className="back-link"> <img src={Back} alt="back-icon" height="12px"/> &nbsp; Back to all courses </Link>
                     <div className="content">
+                        <Link className="back-link" to="/"> <img src={Back} alt="back-icon" height="12px"/> &nbsp; Back to all courses </Link>
                         <h1 className="title">Logic</h1>
                         
                         <h2>Stretch your analytic muscles with knights, knaves, logic gates, and more!</h2>
@@ -52,11 +53,29 @@ const Intro = () => {
 
                         <p className="paragraphs">
                             You'll use limited information to make predictions – eliminating the impossible to uncover the truth. This course builds up to some truly mind-bending challenges!
-                            &nbsp; <Link className="read-more" onClick={() => {setReadMore(!readMore)}}> { linkName } </Link>
+                            &nbsp; <button className="read-more" onClick={() => {setReadMore(!readMore)}}> { linkName } </button>
                         </p>
                         
                         {readMore && readMoreContent}
+                    
                     </div>
+                    
+                    <div className="card">
+                        <img src={CardBg} className="card-img-top" alt="Logic-Card" />
+                        <div className="stats">
+                            <div>
+                                <p>37</p>
+                                <h3>Interactive quizzes</h3>
+                            </div>
+                            <div>
+                                <p>265+</p>
+                                <h3>Concepts and exercises</h3>
+                            </div>
+
+                            <button className="btn btn-dark"> Start Course</button>
+                        </div>
+                    </div>
+                
                 </div>
             </div>
         </div>

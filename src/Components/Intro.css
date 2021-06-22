@@ -2,18 +2,22 @@
     background-color: #F8F8F8;
     font-family: "Soleil", Arial, sans-serif;
     box-sizing: border-box;
+    
 }
 
 .logic-container{
     padding: 40px;
     margin-left: 75px;
     margin-right: 40px;
+    background-color: #F8F8F8;
+    font-family: "Soleil", Arial, sans-serif;
 }
 
 .back-link {
     text-decoration: none;
     color: black;
     opacity: 0.5;
+
 }
 
 .back-link:hover {
@@ -23,6 +27,9 @@
 }
 
 .container {
+    display: flex;
+    width: 100%;
+    padding-right: 20px;
     justify-content: center;
 }
 
@@ -32,6 +39,7 @@
 
 .content>h1 {
     font-size: 65px;
+    margin-top: 40px;
 }
 
 .content>h2 {
@@ -49,6 +57,9 @@
 
 .read-more {
     color: rgba(0, 0, 0, 0.5);
+    background-color: transparent;
+    outline: none;
+    border: 0px;
 }
 
 .read-more:hover {
@@ -63,4 +74,52 @@
     columns: 2;
     color: rgba(0, 0, 0, 0.5);
     font-size: 18px;
+}
+
+.card {
+    width: 50%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 44px 32px;
+    border: 2px solid rgba(0, 0, 0, 0.14);
+    background: #FFFFFF;
+}
+
+.card img {
+    src: url("https://ds055uzetaobb.cloudfront.net/brioche/chapter/logic-HzWHci.png?width=254");
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.stats div {
+    display: inline-flex;
+    flex-direction: column;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.stats>div>h3 {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.stats>div>p {
+    font-size: 30px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.btn-dark {
+    background-color: black;
+    padding: 10px;
+    width: 100%;
+    margin-left: -0px;
+}
+
+.logic-container {
+    display: flex;
 }
