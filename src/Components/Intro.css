@@ -1,0 +1,66 @@
+.div-body {
+    background-color: #F8F8F8;
+    font-family: "Soleil", Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+.logic-container{
+    padding: 40px;
+    margin-left: 75px;
+    margin-right: 40px;
+}
+
+.back-link {
+    text-decoration: none;
+    color: black;
+    opacity: 0.5;
+}
+
+.back-link:hover {
+    color: black;
+    opacity: 1;
+    transition: opacity 0.8s;
+}
+
+.container {
+    justify-content: center;
+}
+
+.content {
+    padding:30px 10px;
+}
+
+.content>h1 {
+    font-size: 65px;
+}
+
+.content>h2 {
+    font-size: 25px;
+    padding: 7px 0px;
+}
+
+.content>p {
+    margin-bottom: 34px;
+    margin-top: 30px;
+    font-size: 18px;
+    line-height: 26px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.read-more {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.read-more:hover {
+    color: rgb(73, 73, 73);
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+.topic-list {
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    columns: 2;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 18px;
+}
