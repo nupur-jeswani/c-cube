@@ -4,6 +4,7 @@ import './Intro.css';
 import Back from './back-arrow.png';
 import { useState } from "react";
 import CardBg from './logic-card-bg.png';
+import ChapterBody from "./ChapterBody";
 
 const Intro = () => {
 
@@ -58,8 +59,9 @@ const Intro = () => {
                         
                         {readMore && readMoreContent}
                     
+                        <button className="read-more"> View pre-requisites and next steps </button>
                     </div>
-                    
+
                     <div className="card">
                         <img src={CardBg} className="card-img-top" alt="Logic-Card" />
                         <div className="stats">
@@ -73,11 +75,14 @@ const Intro = () => {
                             </div>
 
                             <button className="btn btn-dark"> Start Course</button>
-                        </div>
+                        </div>   
                     </div>
                 
                 </div>
             </div>
+
+            <ChapterBody />
+
         </div>
      );
 }
