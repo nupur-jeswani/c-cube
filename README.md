@@ -1,3 +1,26 @@
+# Libraries used: 
+--> react-router-dom : React Router is the most popular library for implementing routing for React apps. React Router, and dynamic, client-side routing, allows us to build a                            single-page web application with navigation without the page refreshing as the user navigates. React Router uses component structure to call components,                          which display the appropriate information.
+
+--> Hooks : The useState() is a Hook that allows you to have state variables in functional components. 
+
+--> Bootstrap 5 : Bootstrap is used to make a webpage responsive and to style elements.
+
+
+# File Structure of the project :
+There are three components present:   
+&nbsp;    1. Navbar  
+&nbsp;    2. Page 1 :   
+            &emsp;&emsp;- In Page 1, the main file here is Intro.js.   
+            &emsp;&emsp;- ChapterBody.js is used to display the chapters present after the Logic Course introduction. I have used props to pass values &emsp;&emsp;                           &emsp;&emsp;&nbsp;&nbsp;(cardHeading, cardBody, image on the card) present on the cards and these values are passed to CardGenerate.js.  
+            &emsp;&emsp;- CardGenerate.js is used to develop the cards (Warm up puzzles etc are cards).   
+&nbsp;    3. Page 2 :  
+            &emsp;&emsp;- Page 2 has only one file WarmUpPage.js which has the first page created of all the rounds.  
+    App.js will control the routing by switching the pages when called.  
+    
+# How to navigate through the pages? 
+  When the site loads, it will have the Intro page up and running. To see the Page 2 of this project, click on the Warmup puzzles card present in the Introduction section.
+  
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
