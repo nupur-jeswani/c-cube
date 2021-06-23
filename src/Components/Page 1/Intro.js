@@ -1,10 +1,10 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Link } from "react-router-dom";
 import './Intro.css';
-import Back from './back-arrow.png';
 import { useState } from "react";
 import CardBg from './logic-card-bg.png';
 import ChapterBody from "./ChapterBody";
+import Back from './back-arrow.png';
 
 const Intro = () => {
 

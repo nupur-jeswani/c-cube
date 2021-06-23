@@ -1,0 +1,151 @@
+.container {
+    margin-left: -12px;
+    height: 100vh;
+    font-family: soleil;
+}
+
+.first-div {
+    background-color: black;
+    color: white;
+    padding: 40px 60px;
+}
+
+.back-arrow-link {
+    text-decoration: none;
+    color: white;
+    opacity: 0.6;
+}
+
+.back-arrow-link:hover {
+    text-decoration: none;
+    color: white;
+    opacity: 0.9;
+}
+
+.first-div p {
+    padding-top: 20px;
+    opacity: 0.9;
+}
+
+.middle-div-content {
+    padding: 60px 40px 30px 50px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.middle-div-content p {
+    margin-bottom: 25px;
+}
+
+.middle-div-content li {
+    margin-bottom: 8px;
+    margin-left: -20px;
+}
+
+li::marker {
+    font-size: 1.3em;
+}
+
+.drag {
+    font-size: 16px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#resetbtn {
+    border: none;
+    font-size: 16px;
+    opacity: 0.5;
+    background-color: white;
+    justify-content: right;
+    cursor: default;
+}
+
+.img-places {
+    opacity: 0.5;
+    display: flex;
+    font-size: 16px;
+}
+
+.column1, .column2, .column3 {
+    margin: -15px 20px 0 30px;
+    border: 2px dashed rgb(156, 156, 156); 
+    text-align: center;
+    width: 150px;
+    padding: 20px;
+    flex-direction: column;
+    border-radius: 10px;
+    height: 170px;
+    padding-top: 75px;
+}
+
+.column1:hover, .column2:hover, .column3:hover {
+    border-color: #0274ad;
+}
+
+.images {
+    display: flex;
+    font-size: 16px;
+    cursor: grab;
+    margin-bottom: 120px;
+}
+
+.column-1, .column-2, .column-3 {
+    margin: -50px 25px;
+    text-align: center;
+    width: 150px;
+    padding: 20px;
+    flex-direction: column;
+    border-radius: 10px;
+    height: 190px;
+    padding-top: 75px;
+}
+
+.column-1 img {
+    height: 120px;
+    width: 120px;
+}
+
+.mid-buttons {
+    margin: 30px;
+    justify-content: center;
+    width: 100%;
+}
+
+.mid-buttons button {
+    padding: 11px 75px; 
+    border: 1px solid rgb(209, 209, 209);
+    font-size: 16px;
+    margin-right: 20px;
+    justify-content: center;
+    text-align: center;
+    color: rgb(68, 68, 68);
+}
+
+.mid-buttons button:last-child {
+    background-color: #2989b9;
+    color: white;
+}
+
+.third-div {
+    padding: 40px 20px 20px 10px;
+}
+
+.dropdown-toggle {
+    background-color: white;
+    opacity: 0.6;
+}
+
+.dropdown-toggle:hover {
+    border: none;
+    opacity: 0.8;
+    box-shadow: none;
+}
+
+.third-div>h1 {
+    font-size: 15px;
+    padding-left: 40px;
+    padding-top: 10px;
+    font-weight: bold;
+}

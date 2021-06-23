@@ -1,6 +1,7 @@
 import Navbar from './Components/Navbar/Navbar';
-import {BrowserRouter as Router} from 'react-router-dom';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Intro from './Components/Page 1/Intro';
+import WarmUpPage from './Components/Page 2/WarmUpPage';
 
 function App() {
   return (
@@ -9,7 +10,17 @@ function App() {
         <header>
           <Navbar />
         </header>
-          <Intro />
+        <Switch>
+          <Route exact path="/">
+            <Intro />
+          </Route>
+          <Route path="/WarmUpPage">
+            <WarmUpPage />
+          </Route>
+          {/* <Route path="*">
+            <NotFound />
+          </Route> */}
+        </Switch>
       </Router>
     </div>
   );

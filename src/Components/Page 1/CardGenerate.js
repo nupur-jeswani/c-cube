@@ -1,9 +1,11 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Link } from "react-router-dom";
 
-const CardGenerate = ({src, cardHeading, cardBody}) => {
+const CardGenerate = ({src, cardHeading, cardBody, to}) => {
     return ( 
-        <div className="card quiz-cards">
+
+        <Link className="card-redirects" to={to}> 
+            <div className="card quiz-cards">
             <img src={src} className="card-img-top" alt="..." />
             <div className="card-body">
                 <h4>{cardHeading}</h4>
@@ -11,7 +13,7 @@ const CardGenerate = ({src, cardHeading, cardBody}) => {
                 
             </div>
             <div className="progress"></div> 
-        </div>
+    </div></Link>
      );
 
 }

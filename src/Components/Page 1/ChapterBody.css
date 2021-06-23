@@ -66,10 +66,15 @@ svg {
     transition: box-shadow 100ms linear;
 }
 
-.card-container h4 {
+.card-container .card-redirects {
+    text-decoration: none;
+}
+
+.card-container .card-redirects h4 {
     font-size: 18px;
     font-weight: normal;
     line-height: 24px;
+    color: #000000;
 }
 
 .card-container p {
