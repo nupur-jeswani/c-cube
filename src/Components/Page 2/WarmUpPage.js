@@ -7,12 +7,12 @@ import resetsym from './resetsym.png'
 const WarmUpChapter = () => {
     return ( 
         <>
-        <div className="container">
+        <div className="row">
             <div className="col-3 text-end xs-1 first-div">
                 <Link to="" className="back-arrow-link"> <img src={back} alt="<" height="13px" /> Back </Link>
                 <p>Logic</p>
             </div>
-            <div className="col-7 sm-6">
+            <div className="col-6 sm-6">
                 <div className="middle-div-content">
                     <p>
                         Joseph, Kevin, and Nicholas are 3 brothers, and the following statements about them are all true:
