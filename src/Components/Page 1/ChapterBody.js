@@ -85,20 +85,3 @@ const ChapterBody = () => {
 }
  
 export default ChapterBody;
-
-//<CardGenerate src="https://ds055uzetaobb.cloudfront.net/brioche/chapter/Warmup_Puzzles-T6zgwD-6TgfYy.png?width=280" cardHeading="Warmup puzzles" cardBody="Get started with some logic warmups" /> 
-
- /* <div className="card quiz-cards">
-                                <img src="https://ds055uzetaobb.cloudfront.net/brioche/chapter/Warmup_Puzzles-T6zgwD-6TgfYy.png?width=280" className="card-img-top" alt="..." />
-                                <div className="card-body">
-                                    <h4>Warmup puzzles</h4>
-                                    <p className="card-text">Get started with some logic warmups</p>
-                                </div>
-                            </div>
-                            <div className="card quiz-cards">
-                                <img src="https://ds055uzetaobb.cloudfront.net/brioche/chapter/Warmup_Puzzles-T6zgwD-6TgfYy.png?width=280" className="card-img-top" alt="..." />
-                                <div className="card-body">
-                                    <h4>Warmup puzzles</h4>
-                                    <p className="card-text">Get started with some logic warmups</p>
-                                </div>
-                            </div> */
