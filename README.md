@@ -10,11 +10,11 @@
 There are three components present:   
 1. Navbar  
 2. Page 1 :   
-            - In Page 1, the main file here is Intro.js.   
-            - ChapterBody.js is used to display the chapters present after the Logic Course introduction. I have used props to pass values (cardHeading, cardBody, image on the card) present on the cards and these values are passed to CardGenerate.js.  
-            - CardGenerate.js is used to develop the cards (Warm up puzzles etc are cards).   
+- In Page 1, the main file here is Intro.js.   
+- ChapterBody.js is used to display the chapters present after the Logic Course introduction. I have used props to pass values (cardHeading, cardBody, image on the card) present on the cards and these values are passed to CardGenerate.js.  
+- CardGenerate.js is used to develop the cards (Warm up puzzles etc are cards).   
 3. Page 2 :  
-            - Page 2 has only one file WarmUpPage.js which has the first page created of all the rounds. App.js will control the routing by switching the pages when called.  
+- Page 2 has only one file WarmUpPage.js which has the first page created of all the rounds. App.js will control the routing by switching the pages when called.  
     
 # How to navigate through the pages? 
   When the site loads, it will have the Intro page up and running. To see the Page 2 of this project, click on the Warmup puzzles card present in the Introduction section.
